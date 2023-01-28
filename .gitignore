@@ -1,0 +1,10 @@
+build/
+data/
+result/
+test_result/
+tool/
+thirdparty/Eigen/
+thirdparty/nvbio/
+thirdparty/pybind11/
+thirdparty/Sophus/
+research_data/

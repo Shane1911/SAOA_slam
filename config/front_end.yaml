@@ -1,0 +1,33 @@
+# current lidar frames downSizeFilter.
+leaf_size: 0.1
+# summap downSizeFilter.
+map_size: 0.5
+# StatisticalOutlierRemoval paramenters.
+meank: 30
+StddevMulThresh: 2.0
+# box filter paramenters.
+min_x: 10.
+max_x: 70.
+min_y: -70.
+max_y: 70.
+min_z: -10.
+max_z: 20.
+# chosing the filter way.
+# 1-voxel + Statistical;2-box + voxid;3-box + voxid+ Statistical;
+filter_way: 3
+# chosing the cloud matching way.
+# 1-vgicp-mt;2-vgicp-cuda;3-NDT-cuda;
+matching_way: 2
+# matching paramenters.
+resolution: 1.0
+numthread: 8
+numiteration: 30
+# front-flow paramenters.
+pcd_path: ../data/pcd/f
+start_fram: 1
+skip_frame: 1
+frames_num: 20
+rate_frames: 10
+map_filter: 0.1
+sleep_time: 1
+viewer_mapping: false

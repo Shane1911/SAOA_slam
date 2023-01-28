@@ -1,0 +1,21 @@
+# back-end yaml
+lidar_pose_path: ../result/front_result/lidar_odom.txt
+gps_pose_path: ../result/gnss_data/gnss2lidar_odom.txt
+loop_pose_path: ../result/loop_closing/loop_pose.txt
+res_pose_path: ../result/back_result/opimization_pose.txt
+res_cov_path: ../result/back_result/result_cov.txt
+num_frames: 6900
+lidar_pose_noise: 1e-2
+lidar_rotate_noise: 1e-1
+gnss_pose_noise: 1e-1
+gnss_rotate_noise: 1e-2
+loop_pose_noise: 1e-5
+loop_rotate_noise: 1e-5
+# gnss2lidar paramenters.
+correctfix:
+  fix_x: 0.0
+  fix_y: -0.0
+  fix_z: 0.0
+  fix_roll: 0.0
+  fix_pitch: 0.0
+  fix_yaw: 0.0
