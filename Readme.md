@@ -6,14 +6,20 @@
 &emsp; 这是一个关于激光slam的问题，不复杂，但绝对精彩。此处给初学者介绍一种利用第三方库实现的建图功能，以便很好的了解这项技术。
 ### Dependencies：
 PCL
+
 Eigen
+
 OpenMP
+
 VGICP
+
 CUDA (optional)
 ### RUN:
 '''
 mkdir build && cd build
+
 cmake .. 
+
 make -j8
 '''
 ### instruction:
