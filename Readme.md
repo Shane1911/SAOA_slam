@@ -27,3 +27,5 @@ make -j8
 <div align=center><img width = '850' height ='300' src =map.png></div> 
 位姿协方差：
 <div align=center><img width = '850' height ='300' src =cov.png></div> 
+灰度图（车道线识别及提取）
+<div align=center><img width = '850' height ='1200' src =gray_map.jpg></div> 

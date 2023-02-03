@@ -8,3 +8,4 @@ thirdparty/nvbio/
 thirdparty/pybind11/
 thirdparty/Sophus/
 research_data/
+cloudto2dgray.cc/
